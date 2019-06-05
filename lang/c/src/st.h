@@ -16,7 +16,7 @@ extern "C" {
 #define CLOSE_EXTERN
 #endif
 
-#include <avro/platform.h>		/* for uintptr_t */
+#include "avro/platform.h"		/* for uintptr_t */
 
 #pragma GCC visibility push(hidden)
 

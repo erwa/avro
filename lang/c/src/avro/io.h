@@ -24,13 +24,13 @@ extern "C" {
 #define CLOSE_EXTERN
 #endif
 
-#include <avro/platform.h>
+#include "avro/platform.h"
 #include <stdio.h>
 
-#include <avro/basics.h>
-#include <avro/legacy.h>
-#include <avro/schema.h>
-#include <avro/value.h>
+#include "avro/basics.h"
+#include "avro/legacy.h"
+#include "avro/schema.h"
+#include "avro/value.h"
 
 typedef struct avro_reader_t_ *avro_reader_t;
 typedef struct avro_writer_t_ *avro_writer_t;

@@ -23,18 +23,18 @@ extern "C" {
 #define CLOSE_EXTERN
 #endif
 
-#include <avro/allocation.h>
-#include <avro/basics.h>
-#include <avro/consumer.h>
-#include <avro/data.h>
-#include <avro/errors.h>
-#include <avro/generic.h>
-#include <avro/io.h>
-#include <avro/legacy.h>
-#include <avro/platform.h>
-#include <avro/resolver.h>
-#include <avro/schema.h>
-#include <avro/value.h>
+#include "avro/allocation.h"
+#include "avro/basics.h"
+#include "avro/consumer.h"
+#include "avro/data.h"
+#include "avro/errors.h"
+#include "avro/generic.h"
+#include "avro/io.h"
+#include "avro/legacy.h"
+#include "avro/platform.h"
+#include "avro/resolver.h"
+#include "avro/schema.h"
+#include "avro/value.h"
 
 CLOSE_EXTERN
 #endif

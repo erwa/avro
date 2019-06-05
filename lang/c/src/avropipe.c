@@ -18,14 +18,13 @@
 #include <ctype.h>
 #include <errno.h>
 #include <getopt.h>
-#include <avro/platform.h>
-#include <avro/platform.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
 #include "avro.h"
 #include "avro_private.h"
+#include "avro/platform.h"
 
 
 /* The path separator to use in the JSON output. */

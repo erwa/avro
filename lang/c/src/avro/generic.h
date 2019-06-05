@@ -24,11 +24,11 @@ extern "C" {
 #define CLOSE_EXTERN
 #endif
 
-#include <avro/platform.h>
+#include "avro/platform.h"
 #include <stdlib.h>
 
-#include <avro/schema.h>
-#include <avro/value.h>
+#include "avro/schema.h"
+#include "avro/value.h"
 
 /*
  * This file contains an avro_value_t implementation that can store

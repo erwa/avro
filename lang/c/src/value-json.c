@@ -16,7 +16,7 @@
  */
 
 #include <errno.h>
-#include <avro/platform.h>
+#include "avro/platform.h"
 #include <stdlib.h>
 #include <string.h>
 

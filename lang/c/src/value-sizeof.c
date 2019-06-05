@@ -15,7 +15,7 @@
  * permissions and limitations under the License.
  */
 
-#include <avro/platform.h>
+#include "avro/platform.h"
 #include <stdlib.h>
 
 #include "avro/basics.h"

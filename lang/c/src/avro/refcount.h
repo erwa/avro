@@ -154,7 +154,7 @@ avro_refcount_dec(volatile int *refcount)
 /* determine the size of int */
 
 #include <limits.h>
-#include <avro/platform.h>
+#include "avro/platform.h"
 #if INT_MAX == INT32_MAX
 #define REFCOUNT_SS "l"
 #elif INT_MAX == INT64_MAX

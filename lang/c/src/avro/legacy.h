@@ -24,13 +24,13 @@ extern "C" {
 #define CLOSE_EXTERN
 #endif
 
-#include <avro/platform.h>
+#include "avro/platform.h"
 #include <stdio.h>
 
-#include <avro/basics.h>
-#include <avro/data.h>
-#include <avro/schema.h>
-#include <avro/value.h>
+#include "avro/basics.h"
+#include "avro/data.h"
+#include "avro/schema.h"
+#include "avro/value.h"
 
 /*
  * This file defines the deprecated interface for handling Avro values.

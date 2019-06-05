@@ -24,8 +24,8 @@ extern "C" {
 #define CLOSE_EXTERN
 #endif
 
-#include <avro/schema.h>
-#include <avro/value.h>
+#include "avro/schema.h"
+#include "avro/value.h"
 
 /*
  * A <i>resolved value</i> is a special kind of value that knows how to

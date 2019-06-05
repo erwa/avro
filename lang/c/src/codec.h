@@ -24,7 +24,7 @@ extern "C" {
 #define CLOSE_EXTERN
 #endif
 
-#include <avro/platform.h>
+#include "avro/platform.h"
 
 enum avro_codec_type_t {
 	AVRO_CODEC_NULL,
